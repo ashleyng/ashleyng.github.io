@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    background: white;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #000099;
+    background-color: #b0b0b0;
+}
+
+
+/* NAVIGATION STYLE*/
+nav {
+	clear: both;
+}
+nav ul {
+	list-style: none;
+	padding: 1em 0;       /* padding above and below li elements */
+	background-color: #000099;
+        color: #b0b0b0}
+nav li {
+	display: inline; }
+nav a {
+	padding: 1em 2em;
+	text-decoration: none;
+	color: #fffded;
+	font-weight: bold;
+	border-right: 2px solid #fffded; }
+nav a.current { color: yellow; }
+
+/*TABBED STYLE*/
+#tab_list {
+    margin: 0;
+    padding: 3px 6px;
+    border-bottom: 1px solid black;
+}
+#tab_list li {
+    list-style: none;
+    display: inline;
+}
+#tab_list li a {
+    padding: 3px 1em;
+    margin-left; 3px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #ccffff;
+    border: 1px solid black;
+}
+#tab_list li a.hover {
+    background: silver;
+    border-color: black;
+}
+#tab_list li a.active {
+    background-color: white;
+    border-bottom: 1px solid white;
+}
+#tab_contents div {
+    padding: 5px 10px 10px;
+    border: 1px solid black;
+    border-top: 0;
+    height: 100px;
+    overflow: auto;
+}
+.hide {
+    display: none;
+}
+
+/*SECTION STYLE*/
+section {
+	clear: left;
+	padding: 0 20px;
+	width: 525px;
+	float: right;
+}
+section h1 {
+	color: #800000;
+	font-size: 150%;
+	padding: .5em 0 .25em;
+}
+section h2 {
+	font-size: 120%;
+	padding-bottom: .25em;
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 1.5em 1.25em;
+	list-style-type: circle;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+/*ASIDE STYLE*/
+aside {
+	width: 215px;
+	float: left;
+	padding-left: 20px;
+}
+aside h1 {
+	color: #000099;
+	font-size: 150%;
+	padding: .5em 0 .25em;
+}
+aside h2 {
+	font-size: 120%;
+	padding-bottom: .25em;
+}
+aside img {
+	padding-bottom: 1em;
+}
