@@ -1,3 +1,6 @@
+article, aside, figure, figcaption, footer, header, nav, section {
+    display: block;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -22,63 +25,6 @@ body {
     background-color: #b0b0b0;
 }
 
-
-/* NAVIGATION STYLE*/
-nav {
-	clear: both;
-}
-nav ul {
-	list-style: none;
-	padding: 1em 0;       /* padding above and below li elements */
-	background-color: #000099;
-        color: #b0b0b0}
-nav li {
-	display: inline; }
-nav a {
-	padding: 1em 2em;
-	text-decoration: none;
-	color: #fffded;
-	font-weight: bold;
-	border-right: 2px solid #fffded; }
-nav a.current { color: yellow; }
-
-/*TABBED STYLE*/
-#tab_list {
-    margin: 0;
-    padding: 3px 6px;
-    border-bottom: 1px solid black;
-}
-#tab_list li {
-    list-style: none;
-    display: inline;
-}
-#tab_list li a {
-    padding: 3px 1em;
-    margin-left; 3px;
-    text-decoration: none;
-    font-weight: bold;
-    background: #ccffff;
-    border: 1px solid black;
-}
-#tab_list li a.hover {
-    background: silver;
-    border-color: black;
-}
-#tab_list li a.active {
-    background-color: white;
-    border-bottom: 1px solid white;
-}
-#tab_contents div {
-    padding: 5px 10px 10px;
-    border: 1px solid black;
-    border-top: 0;
-    height: 100px;
-    overflow: auto;
-}
-.hide {
-    display: none;
-}
-
 /*SECTION STYLE*/
 section {
 	clear: left;
@@ -86,14 +32,10 @@ section {
 	width: 525px;
 	float: right;
 }
-section h1 {
+/*section h1 {
 	color: #800000;
 	font-size: 150%;
 	padding: .5em 0 .25em;
-}
-section h2 {
-	font-size: 120%;
-	padding-bottom: .25em;
 }
 section p {
 	padding-bottom: .5em;
@@ -108,6 +50,24 @@ section ul {
 }
 section li {
 	padding-bottom: .35em;
+}*/
+
+h2 {
+	font-size: 120%;
+	padding: .25em 0 .25em 25px;
+	cursor: pointer;
+	background: url('images/plus.png') no-repeat left center;
+}
+h2.minus {
+	background: url('images/minus.png') no-repeat left center;
+}
+
+div {
+	display: none;
+}
+div.open {
+	display: block;
+	padding-left: 45px;
 }
 
 /*ASIDE STYLE*/
