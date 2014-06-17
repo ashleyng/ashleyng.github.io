@@ -22,7 +22,7 @@ body {
     width: 800px;
     margin: 0 auto;
     border: 3px solid #000099;
-    background-color: #b0b0b0;
+    background-color: #BDBDBD;
 }
 
 /*SECTION STYLE*/
@@ -32,42 +32,36 @@ section {
 	width: 525px;
 	float: right;
 }
-/*section h1 {
+section h1 {
 	color: #800000;
 	font-size: 150%;
 	padding: .5em 0 .25em;
 }
 section p {
 	padding-bottom: .5em;
+	
 }
-section blockquote {
-	padding: 0 2em;
-	font-style: italic;
-}
-section ul {
-	padding: 0 0 1.5em 1.25em;
-	list-style-type: circle;
-}
-section li {
+section h3, h4, li {
 	padding-bottom: .35em;
-}*/
+}
 
-h2 {
+section h2 {
 	font-size: 120%;
 	padding: .25em 0 .25em 25px;
 	cursor: pointer;
-	background: url('images/plus.png') no-repeat left center;
+	background: url('../images/plus.png') no-repeat left center;
 }
-h2.minus {
-	background: url('images/minus.png') no-repeat left center;
+section h2.minus {
+	background: url('../images/minus.png') no-repeat left center;
 }
 
-div {
+section div {
 	display: none;
+	padding-left: 30px;
 }
-div.open {
+section div.open {
 	display: block;
-	padding-left: 45px;
+	padding-left: 30px;
 }
 
 /*ASIDE STYLE*/
