@@ -83,3 +83,7 @@ aside h2 {
 aside img {
 	padding-bottom: 1em;
 }
+
+aside h2 img {
+	vertical-align:top;	
+}
