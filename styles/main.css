@@ -49,11 +49,11 @@ section h2 {
 	font-size: 120%;
 	padding: .25em 0 .25em 25px;
 	cursor: pointer;
-	background: url('../images/plus.png') no-repeat left center;
+	background: url('../images/arrow_r.png') no-repeat left center;
 	color: #000099;
 }
 section h2.minus {
-	background: url('../images/minus.png') no-repeat left center;
+	background: url('../images/arrow_d.png') no-repeat left center;
 }
 
 section div {
