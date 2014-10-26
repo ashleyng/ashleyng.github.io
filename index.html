@@ -1,76 +1,114 @@
-<html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<title>Ashley L. Ng</title>
-	<!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
-	<link rel="stylesheet" href="styles/main.css">
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-    <script src="javascript/accordian.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/destacados.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
 </head>
 
-<body>
-    <header>
-    	<h1> <font style="color: #DF0101">CURRENTLY UNDER CONSTRUCTION</font><br/>Ashley L. Ng</h1>
-    </header>
-    <section id="project_list">
-    	<h2>World Crises Database</h2>
-    	<div>
-    		<h3>CS 373 (Software Engineering) Project</h3>
-    		<h4>October 2013 - December 2013</h4>
-    		<p>
-    			<b>Team Members:</b> Kasey Reed, Yutian Li, Patrick Fennelly, and Clay Smalley
-    		</p>
-    		<p>
-    			We created a Django app hosted by Heroku with Python and Twitter Bootstrap the emulated IMDB to track world crises. Our team used AngularJS to embed dynamic content from selected crises, people, and organizations.
-    		</p>
-    		<li><a href="http://cs373wcdb.herokuapp.com/" target="_blank">Heroku Site</a></li>
-    		<li><a href="images/WCDB3-Report.pdf" target="_blank">Technical Report</a></li>
-    	</div>
-    	<h2>UT Business Contract Database (Class Project)</h2>
-    	<div>
-    		<h3>CS 347 (Data Management) Project</h3>
-    		<h4>March 2014 - April 2014</h4>
-    		<p><b>Team Memeber:</b> Jared Hettinger</p>
-    		<p>
-    			We created a web application using Oracle's Application Express (APEX) to create a database to help UT's Business Contract office to manage their contracts.They currently use Access and print everything for documentation, and this database was made in hopes to make everything digital and to make the process of carrying out and starting a contract a lot less complicated. <br/>
-    		</p>
-    		<li><a href="https://apex.oracle.com/pls/apex/f?p=51779:1:101098688669897:::::" target="_blank">APEX Link</a></li>
-    	</div>
-    	<h2>UT Business Contracts Database (Extension Project)</h2>
-    	<div>
-    		<h3>Summer 2014 Project</h3>
-    		<h4>May 2014 - Present</h4>
-    		<p><b>Team Members:</b> Colin Murray (team leader), Chris Metcalf, Alex Landaverde, Calvin Aisenbrey</p>
-    		<p>
-    			A few students continued working on the Business Contracts project over the summer. We met with the Business Contracts people regularly to make sure certain features were implemented and to make sure we were up to date with their needs.
-    		</p>
-    		<li><a href = "https://apexea.oracle.com/pls/apex/f?p=2501:LOGIN_DESKTOP:101517228375976:::::">APEX Link</a></li>
-    	</div>
-    	<h2>UT RecSports Outdoor Rental Center Database</h2>
-    	<div>
-    		<h4>May 2014 - Present</h4>
-    		<p>
-    			The UT Outdoor Center uses a paper system and excel documents to track equipment reservations and equipment conditions. I will design the web application using Oracle's Application Express (APEX) and then turn in my design to The Division of RecSports IT department and they will integrate it into their system. 
-    		</p>
-    		<li><a href="https://apexea.oracle.com/pls/apex/f?p=1146:1:9615193342914:::::" target="_blank">APEX Link</a></li>
-    	</div>
-    	
-    </section>
-    
-    <aside>
-        <img src=images/ashleyng.jpeg alt="Ashley Ng" height="250">
-        <h2>ashleyliann.ng@gmail.com</h2>
-        <h2><img src ="images/1406965867_list.png"/><a href="images/resume_ashley.pdf" target="_blank">Resume</a></h2>
-        <h2><img src = "images/GitHub-Mark-32px.png"/><a href="https://github.com/ashleyng" target="_blank">github</a></h2>
-        <h2><img src = "images/linkedin.png"/><a href="https://www.linkedin.com/in/ashleylng" target="_blank">Linkedin</a></h2>
-        <h2><img src="images/wordpress.png"/><a href="http://ashleylng.wordpress.com/" target="_blank">Wordpress</a></h2>
-    </aside>
-    
-    
-    
-</body>
+<html>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="    #bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Logo</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/classes">Classes</a></li>
+                <li><a href="/languages">Languages</a></li>
+            </ul> 
 
 
+            <!-- <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form> -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/ashleyng" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/ashleylng" target="_blank">LinkedIn</a></li>
+                <li><a href="http://ashleylng.wordpress.com/" target="_blank">WordPress</a></li>
+                <!-- <li><a href="{% static 'resume_ashley.pdf' %}" target="_blank"></a>Resume</li> -->
+                
+            </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <body>
+
+    <div class="container">
+        <div class="row destacados">
+            <div class="col-md-4 col-md-offset-2">
+                <a href="/projects">
+                    <div>
+                        <img src="images/icons/coffee.png" alt="Texto Alternativo" class="img-circle img-thumbnail">
+                        <h2>Projects</h2>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="classes.html">
+                    <div>
+                        <img src="images/icons/book.png" alt="Texto Alternativo" class="img-circle img-thumbnail">
+                        <h2>Classes</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="container">
+        <div class = "col-lg-4 col-lg-offset-2">
+            <center>
+                <img src="images/ashleyng.jpeg" class="img-circle profile">
+            </center>
+            <p>Hi, I'm Ashley and I'm currently a Computer Science student at the University of Texas. This is my portfolio+. Not only can you see projects I'm working on or have done, but you can see languages I know; whether I learned from classes or taught myself, and see the Computer Science classes I've taken.</p>
+
+            <!-- <p>I've built this site using Django and Twitter Bootstrap. As you may be able to tell, this site is hosted by a free service on pythonanywhere.com. I hope in the future I'll be able to purchase my own domain, and transfer this site there.</p>  -->
+        </div>
+        <div class="col-lg-4 col-lg-offset-1">
+            <h3>Skills</h3>
+            <li><b>SQL</b> | Advanced </li>
+            <li><b>Java</b> | Intermediate </li>
+            <li><b>Python</b> | Intermediate </li>
+            <li><b>C++</b> | Intermediate </li>
+        </div>
+    </div>
+
+
+    
+
+   </body>
+
+    
+    <div class="footer navbar-fixed-bottom">
+        <div class="container">
+            <center>
+                <a href="http://ashleylng.wordpress.com/" target="_blank"><img id="social" class="nav-icon" src="images/icons/wordpress-large.png"</a>
+                <a href="https://github.com/ashleyng" target="_blank"><img id="social" class="nav-icon" src="images/icons/Octocat.png"></a>
+                <a href="https://www.linkedin.com/in/ashleylng" target="_blank"><img id="social" class="nav-icon" src="images/icons/linkedin.png"></a>
+            </center>
+        </div>
+    </div>  
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src ="javascript/bootstrap.min.js"></script>
 </html>
