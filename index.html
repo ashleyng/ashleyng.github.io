@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="styles/footer.css">
     <link rel="stylesheet" type="text/css" href="styles/awesome.css">
     <link rel="stylesheet" type="text/css" href="styles/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="styles/fullpage.css">
 </head>
 
 <html>
@@ -38,19 +39,21 @@
     <body>
     <div id="fullpage">
         <div class="section">
-            <div class = "col-lg-5 col-lg-offset-2">
+            <div class = "col-lg-4 col-lg-offset-2">
                 <center>
                     <img src="images/ashleyng.jpeg" class="img-circle profile">
                 </center>
                 <a href="test.html">test page</a>
-                <p>Hi, I'm Ashley and I currently attend The University of Texas. I am majoring in Computer Science,
-                    and have minors in Mathematics and Classical Civilization</p>
+                <p>I'm Ashley and I currently attend The University of Texas at Austin. I am majoring in Computer
+                    Science,
+                    and have minors in Mathematics and Classical Civilization. You can find some of my projects
+                    below</p>
             </div>
-            <div class="col-lg-5">
-                <h3>Skills</h3>
+            <div class="col-lg-4 skills">
+                <h2>Skills</h2>
                 <li><b>Object Oriented Programing</b> | Intermediate</li>
                 <li><b>Web Development</b> | Basic</li>
-                <h3>Languages</h3>
+                <h2>Languages</h2>
                 <li><b>SQL and PL/SQL</b> | Advanced </li>
                 <li><b>Java</b> | Intermediate </li>
                 <li><b>Python</b> | Intermediate </li>
@@ -59,7 +62,38 @@
         </div>
 
         <div id="vision" class="container section">
-            Hello, World! This is the vision section
+            <div class="slide">
+                <div class="intro">
+                    <h1>Panoramic and mosaic image generation</h1>
+                    <p>This was a continuation of my computer vision class. Initially, the code only worked well making a 3 image
+                    panorama. It currently works with any number of images as well as being able to create mosaics.
+                    Future endeavours include image blending and equirectangular/"little planet" image stitching.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img src="images/docs/vision/big_wall.png"/>
+                    <p>Climbing wall panorama - 7 images</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img src="images/docs/vision/flags2.png"/>
+                    <p>UT main mall on 9/11 panorama - 4 images</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img src="images/docs/vision/tower_small.png"/>
+                    <p>UT Tower mosaic - 7 images</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img src="images/docs/vision/tower_big.png"/>
+                    <p>UT Tower mosaic - 15 images</p>
+                </div>
+            </div>
         </div>
 
         <div id="UTBC-DB" class="container section">
