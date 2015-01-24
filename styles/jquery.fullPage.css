@@ -63,7 +63,7 @@ html, body {
 .fp-controlArrow {
     position: absolute;
     z-index: 4;
-    top: 13%;
+    top: 50%;
     cursor: pointer;
     width: 0;
     height: 0;
@@ -77,7 +77,7 @@ html, body {
     border-color: transparent #fff transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 15px;
+    right: 50px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
 }
