@@ -63,12 +63,12 @@ html, body {
 .fp-controlArrow {
     position: absolute;
     z-index: 4;
-    top: 50%;
+    top: 13%;
     cursor: pointer;
     width: 0;
     height: 0;
     border-style: solid;
-    margin-top: -38px;
+    /*margin-top: -38px;*/
 }
 .fp-controlArrow.fp-prev {
     left: 15px;
