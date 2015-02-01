@@ -102,24 +102,21 @@
                     <h2>Computer Vision Route Detection</h2>
                     <p>This was our end of course project for the class, and we decided to work on climbing wall
                         route detection. We were able to accomplish the detection of the individual tapes from a
-                        route as well as the color of the tape. For simpler images, we were able to obtain a 91%
-                        accuracy for detecting known tapes on the wall. For more complex images, we were able to
-                        obtain a 85% accuracy. As for the color detection, for simpler images, it had an average of
-                        69% accuracy of correctly identifying the color of tape. For the complex image, it had an
-                        accuracy of 47%. You can read more about our results and process in our final report here: <a
+                        route as well as the color of the tape. We used python and the opencv library for this project.
+                        You can read more about our results and process in our final report here: <a
                                 href="images/docs/route_detection/final_report.pdf">here</a></p>
                 </div>
             </div>
             <div class="slide">
                 <div class="intro">
                     <img src="images/docs/route_detection/calculated_simple.png" />
-                    <p>Routes detected on simple wall</p>
+                    <p>Routes detected on simple wall. 91% accuracy for true positives</p>
                 </div>
             </div>
             <div class="slide">
                 <div class="intro">
                     <img src="images/docs/route_detection/calculated.png" />
-                    <p>Routes detected on complex image</p>
+                    <p>Routes detected on complex image. 85% accuracy for true positives</p>
                 </div>
             </div>
         </div>
@@ -251,7 +248,7 @@
     $(document).ready(function() {
         $('#fullpage').fullpage({
             navigation: true,
-            navigationTooltips: ['Home', 'Panoramic/Mosaic Project', 'Route Detection', 'UT Busines Contracts',
+            navigationTooltips: ['Home', 'Panoramic/Mosaic Project', 'Route Detection', 'UT Business Contracts',
                 'UT Outdoor Center',
                 'World Crisis Database']
         });
