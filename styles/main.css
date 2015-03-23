@@ -1,7 +1,9 @@
 body {
-	background-image: url('../images/background/white_small.png');
+	background-image: url('../images/background/blue-purple.png');
 	background-size: 100%;
-	/*color: white !important;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white !important;
 	font-size: 15px !important;
 }
 
@@ -196,3 +198,7 @@ center {
 	font-size: 1.1em;
 }
 
+/*this messes up the side bar...*/
+.section {
+	margin: 50px;
+}
