@@ -2,46 +2,32 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/nav.css">
 </head>
 
 <html>
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="glyphicon glyphicon-triangle-right"></i></a>
-
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="glyphicon glyphicon-triangle-left"></i></a>
-            <li class="sidebar-brand">
-                Projects
-            </li>
-            <li>
-                <a href="#top">Top</a>
-            </li>
-            <li>
-                <a href="#areyouopen">'Are You Open?'' iOS App</a>
-            </li>
-            <li>
-                <a href="#pano">Panoramic and mosaic image generation</a>
-            </li>
-            <li>
-                <a href="#routedetection">Computer vision route detection</a>
-            </li>
-            <li>
-                <a href="#utbc-db">UT Business Contracts Database</a>
-            </li>
-            <li>
-                <a href="#wcbd">World Crisis Database</a>
-            </li>
-        </ul>
-    </nav> 
+    <nav>
+        <div class="container">
+            <center>
+                <a href="index.html"><img class="nav-icon" src="images/icons/home.png"></a> 
+                <a href="http://ashleylng.wordpress.com/" target="_blank"><img class="nav-icon" src="images/icons/wordpress-large.png"></a>
+                <a href="https://github.com/ashleyng" target="_blank"><img id="social" class="nav-icon" src="images/icons/Octocat.png"></a>
+                <a href="https://www.linkedin.com/in/ashleylng" target="_blank"><img class="nav-icon" src="images/icons/linkedin.png"></a>
+                <a href="projects.html"><img id="social" class="nav-icon" src="images/icons/projects.png"></a>
+                <a href="images/docs/ashley-Feb2015.pdf" target="_blank"><img class="nav-icon" src="images/icons/resume.png"></a>
+            </center>
+        </div>
+    </nav>
 
     <body>
         <div class="section" id="top">
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <img src="images/ashleyng.jpeg" class="img-responsive profile">
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 lead">
+                        I'm Ashley and I'm a Computer Science student at the University of Texas at Austin. I enjoy learning about computer vision and iOS app development. My hobbies are Rubik's style puzzles, learning about Greek and Roman culture and history, fountain pens, swimming and rock climbing, and Lego.
+                    </div>
                 </div>
-                <div class="col-lg-4 skills">
+                <div class="col-lg-4 col-lg-offset-4 skills">
                     <h3>Skills</h3>
                     <li><b>Object Oriented Programing</b> | Experienced</li>
                     <li><b>iOS App Development</b> | Experienced</li>
@@ -54,317 +40,10 @@
                     <li><b>Objective-C</b> | Experienced</li>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 lead">
-                    I'm Ashley and I'm a Computer Science student at the University of Texas at Austin. I enjoy learning about computer vision and iOS app
-                        development, Rubik's style puzzles, and Greek and Roman culture and history.
-                </div>
-            </div>
         </div> <!-- top div -->
-
-        <div class="section" id="areyouopen">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="page-header"><h2>'Are You Open' iOS App</h2></div>
-                    <div id="areyouopen-carousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#pano-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#pano-carousel" data-slide-to="1"></li>
-                            <li data-target="#pano-carousel" data-slide-to="2"></li>
-                            <li data-target="#pano-carousel" data-slide-to="4"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img src="images/docs/areyouopen/screenshot5.png" />
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/areyouopen/screenshot4.png" />
-
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/areyouopen/screenshot1.png" />
-
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/areyouopen/screenshot3.png" />
-
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/areyouopen/screenshot2.png" />
-                            </div>
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#areyouopen-carousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#areyouopen-carousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div> <!-- Carousel div -->
-                </div> <!-- offset div -->
-            </div> <!-- row div -->
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 lead">
-                    <p>This was a final project for my iOS mobile computing class. The app, 'Are You Open?', allows the user to quickly and efficiently look up a restaurant's hours by name, type, and/or vacinity. (currently not in the app store)</p>
-                </div>
-            </div>
-        </div> <!-- section div -->
-
-        <div class="section" id="pano">
-            <div clas="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="page-header"><h2>Panoramic and mosaic image generation</h2></div>
-                    <div id="pano-carousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#pano-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#pano-carousel" data-slide-to="1"></li>
-                            <li data-target="#pano-carousel" data-slide-to="2"></li>
-                            <li data-target="#pano-carousel" data-slide-to="4"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img src="images/docs/pano/big_wall.png" />
-                                <div class="carousel-caption">
-                                    <p>Climbing wall panorama - 7 images</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/pano/flags2.png" />
-                                <div class="carousel-caption">
-                                    <p>UT main mall on 9/11 panorama - 4 images</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/pano/tower_small.png" />
-                                <div class="carousel-caption">
-                                    <p>UT Tower mosaic - 7 images</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/pano/tower_big.png" />
-                                <div class="carousel-caption">
-                                    <p>UT Tower mosaic - 15 images</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#pano-carousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#pano-carousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div> <!--  carousel div -->
-                </div> <!-- inner row div -->
-            </div> <!-- row div -->
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 lead">
-                    <p>This was a continuation of my computer vision class. Initially, the code only worked well making a 3 image
-                            panorama. It currently works with any number of images as well as being able to create mosaics.
-                            <br>Future endeavours include image blending and equirectangular/"little planet" image
-                                stitching.</p>
-                </div>
-            </div>
-        </div> <!-- pano div -->
-
-
-        <div class="section" id="routedetection">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="page-header"><h2>Computer Vision Route Detection</h2></div>
-                    <div id="route-detection-carousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#route-detection-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#route-detection-carousel" data-slide-to="1"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img src="images/docs/route_detection/calculated_simple.png" />
-                                <div class="carousel-caption">
-                                    <p>Routes detected on simple wall. 91% accuracy for true positives</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/route_detection/calculated.png" />
-                                <div class="carousel-caption">
-                                    <p>Routes detected on complex image. 85% accuracy for true positives</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#route-detection-carousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#route-detection-carousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div> <!--  carousel div -->
-                </div> <!-- inner row div -->
-            </div> <!-- row div -->
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 lead">
-                    <p>This was our end of course project for the class, and we decided to work on climbing wall
-                        route detection. We were able to accomplish the detection of the individual tapes from a
-                        route as well as the color of the tape. We used python and the opencv library for this project.
-                        You can read more about our results and process in our final report here: <a
-                                href="images/docs/route_detection/final_report.pdf">here</a></p>
-                </div>
-            </div>
-        </div> <!-- route detection div -->
-
-
-        <div class="section" id="utbc-db">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="page-header"><h2>UT Business Contracts Databse</h2></div>
-                    <div id="utbc-carousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#utbc-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#utbc-carousel" data-slide-to="1"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img src="images/docs/utbc/Logical.png" />
-                                <div class="carousel-caption">
-                                    <p>Our logical model</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/utbc/app_0.png" />
-                                <div class="carousel-caption">
-                                    <p>Home Page</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/utbc/app_1.png" />
-                                <div class="carousel-caption">
-                                    <p>Tree Implementation for Contracts and Versioning</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/utbc/app_2.png" />
-                                <div class="carousel-caption">
-                                    <p>Details Page for Contracts</p>
-
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="images/docs/utbc/app_6.png" />
-                                <div class="carousel-caption">
-                                    <p>Search page</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#utbc-carousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#utbc-carousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div> <!--  carousel div -->
-                </div> <!-- inner row div -->
-            </div> <!-- row div -->
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 lead">
-                    <p>Initially this was an end of class project. The project was to build a database and
-                        application for UT's business contracts department. Then for the summer, the professor put
-                        together a team of
-                    five students who were interested in continuing the project. We used Oracle products to build our application
-                        and
-                    model such as; Data Modeler, SQL developer, and Application Express. The team met regularly over the
-                        summer, as
-                    well as meeting with a business contracts employee to make sure we were getting features they wanted in the
-                    application. Here is the application
-                        <a href="images/docs/utbc/documentation.pdf" target="_blank">documentation</a> we created in LaTeX</p>
-                </div>
-            </div>
-        </div> <!-- utbc database -->
-        
-
-        <div class="section" id="wcbd">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="page-header"><h2>World Crisis Database</h2></div>
-                    <div id="wcdb-carousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#wcdb-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#wcdb-carousel" data-slide-to="1"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img src="images/docs/wcdb/UMLPicture-small.png" />
-                                <div class="carousel-caption">
-                                    <p>Our Model</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#wcdb-carousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#wcdb-carousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div> <!--  carousel div -->
-                </div> <!-- inner row div -->
-            </div> <!-- row div -->
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 lead">
-                    <p>This was a class project for a software engineering class. We were to make a dynamic website that
-                        emulated IMDB with World Crisis, or WCDB. We created a Django app hosted by <a
-                                href="http://cs373wcdb.herokuapp.com/">Heroku</a> with Python and
-                        Twitter Bootstrap. Our team used AngularJS to embed dynamic content from selected crises,
-                        people, and organizations. Here is our <a href="images/docs/wcdb/WCDB3-Report.pdf">techincal report</a></p>
-                </div>
-            </div>
-        </div> <!-- wcdb div -->
-
-
    </body>
-
-    <div class="footer navbar-fixed-bottom">
-        <div class="container">
-            <center>
-                <a href="http://ashleylng.wordpress.com/" target="_blank"><img id="social" class="nav-icon" src="images/icons/wordpress-large.png"</a>
-                <a href="https://github.com/ashleyng" target="_blank"><img id="social" class="nav-icon" src="images/icons/Octocat.png"></a>
-                <a href="https://www.linkedin.com/in/ashleylng" target="_blank"><img id="social" class="nav-icon" src="images/icons/linkedin.png"></a>
-                <a href="images/docs/ashley-Feb2015.pdf" target="_blank"><img id="social" class="nav-icon" src="images/icons/pdf.png"></a>
-            </center>
-        </div>
-    </div>
 
 <!-- Custom Theme JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="javascript/nav.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </html>
