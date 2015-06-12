@@ -5,6 +5,14 @@ body {
 	background-attachment: fixed;
 	/*color: white !important;*/
 	font-size: 15px !important;
+	font-family: 'Source Sans Pro', serif !important; 
+}
+
+center > div {
+	display: inline
+}
+center > div > p {
+	display: inline
 }
 
 #top {
