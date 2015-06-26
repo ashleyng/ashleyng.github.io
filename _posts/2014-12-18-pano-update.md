@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Pano update
+category: notable
 ---
-
-{{ page.title }}
-===========
 
 Quick update, got the mosaics working. It definitely takes a lot more time to run the script, but it looks pretty good. Up next is either the image blending or the equirectangular projection.
 

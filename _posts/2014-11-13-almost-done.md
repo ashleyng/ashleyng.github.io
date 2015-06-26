@@ -3,8 +3,6 @@ layout: post
 title: Almost done!
 ---
 
-{{ page.title }}
-==============
 
 Sorry, I've been absent lately. I've just hit that point in the semester where I have a ton of projects going on, but on the plus side, Thanksgiving is only 2 weeks away! Then after that, there's only 1 week of school left before finals!
 

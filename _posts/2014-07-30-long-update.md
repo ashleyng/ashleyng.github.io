@@ -2,10 +2,6 @@
 layout: post
 title: Long update
 ---
-
-{{ page.title }}
-============
-
 Yesterday my BC group presented to the class I'm proctoring because they're going to be doing a similar project. So we were just showing them what we've done over the summer and talked about our Data model. But we have a lot of progress from when we first started. We've even done some features that I never would of thought possible, and our application looks really well done. We were talking about continuing this project in the fall, just to put the final touches and make sure it gets to the customer with all the features they want. And I was just thinking maybe get another CS credit out of the way. It would definitely lighten my stress since this will probably (80% sure) be the last year I'll be able to receive financial aid.
 
 Also, I think I'm pretty much done with the OC database. I just need to meet with them to get feedback and such. Make a few updates, and then I think I'll write some sort of documentation for the RecSports software developer. Although, I don't really know if I'll actually be implementing this anymore because I'm not really sure if I'm still on good terms with the OC supervisors/directors since I left the job... but we'll wait and see. Whether it get's implemented or not, I still have the APEX app to put on my resume.

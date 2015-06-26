@@ -3,9 +3,6 @@ layout: post
 title: School update
 ---
 
-{{ page.title }}
-============
-
 Thought I'd give you guys an update since I'm kind of unmotivated to do any sort of work at the moment.
 
 So we're in our first full week of class this week. There's really nothing spectacular going on. Just normal class days and morning workouts. Our football team still isn't doing so hot, but we've only had two games, so maybe we'll improve?

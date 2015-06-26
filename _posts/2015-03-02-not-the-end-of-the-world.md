@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Not the end of the world
+category: notable
 ---
-
-{{ page.title }}
-==========
 
 Sometimes we think life isn't fair. We put some much work into achieving something, but get no results. You just have to keep moving on. The one thing I truly believe in is that everything happens for a reason. Just because you didn't get that job offer or get accepted to your school of choice, isn't the world against you. If anything it is helping guide you to where you need to be, but that also doesn't mean that you should give up on that dream. You can work harder at it, and if it's meant to happen, it will happen.
 

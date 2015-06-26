@@ -1,10 +1,8 @@
 ---
 layout: post
 title: My main languages
+category: notable
 ---
-
-{{ page.title }}
-===============
 
 Coming to an end of my 9th semester at university (5th year student), I've realized I need to start thinking about what area I want to go in and kind of stick to it at this point. Also with (hopefully) a lot of coding challenges from companies in the near future, I need just stick to a language to use on them and just practice with the language (which is the topic of this post).
 

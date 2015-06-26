@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Bose on ear vs Bose around ear
+category: notable
 ---
-
-{{ page.title }}
-==============
 
 So here's my first none computer science related post, and it's going to be about Bose's headphone. Now, I'm no audiophile, and I'm not going to pretend to be. So if you're looking for a good audio quality comparison, I suggest you look else where. I have no knowledge if a set of headphones has "true" sound, or more bass or treble or whatever. All I would be able to tell you is if one sounds better than the other, and if one has better noise cancellation (which I will discuss later). I don't go out in search of the absolutely best headphones to have the best audio experience possible. I just buy headphone that will last me, that are comfortable, that meet the criteria I have, and that, of course, allow me to listen to music.
 

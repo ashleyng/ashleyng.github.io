@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Opencv panoramic images
+category: notable
 ---
-
-{{ page.title }}
-===========
 
 Well I got back home from uni on Sunday, and I've been busy working on continuing my computer vision class projects. The one I've currently been working on is to create panoramic images.
 

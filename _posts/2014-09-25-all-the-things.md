@@ -3,9 +3,6 @@ layout: post
 title: Do all the things!
 ---
 
-{{ page.title }}
-===========
-
 Well just got done with a C++ assignment, and I have a lot on my mind at the moment so this might end up being word vomit.
 
 First off, turned in my very first internship application! Would of turned in more today, but I have to write up a cover letter for them as well as get transcripts for others. I also finished the computer vision project on Monday. Didn't get as much extra credit done as I'd like, but we at least did some of it. I may try and work on it separately to get the image blending and spherical projection implemented (which were both part of the extra credit). It seems easy enough, but trying to figure out how to use OpenCVs functions is the problem.

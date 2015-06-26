@@ -3,9 +3,6 @@ layout: post
 title: First Book Done
 ---
 
-{{ page.title }}
-=================
-
 We'll I just completed all the all exercises in Murach's HTML5 and CSS3 book. I guess you could say this will be a review on the book.
 
 So the first two section of this book mainly covered HTML and CSS, then there was a section on JavaScript and JQuery, and the last section was all about actually deploying a website (which I actually haven't read yet). Before this book, I had some knowledge on CSS and HTML (but somewhat minimal), and pretty much no knowledge on JavaScript and JQuery. Maybe HTML and CSS are just very easy languages to learn or it may of been from my prior knowledge, but I felt that the exercises were very easy and simple. Even though it took me about five days to complete the book, I probably could of done it in a day if I really wanted to. The JavaScript and JQuery section I found a bit more interesting and actually read through some of the chapters, but I didn't quite enjoy the exercises as much. I felt like the exercises were more of a copy what you see in the book and mess with numbers to get formatting right. This book has increased my knowledge on the subject, but I would only recommend it to beginners and nothing more; anything above and you probably won't learn a whole lot.

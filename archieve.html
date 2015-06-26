@@ -1,0 +1,18 @@
+---
+layout: header
+title: Archieve
+---
+
+    <body>
+        <div class="section">
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                    <ul id="posts">
+                    {% for post in site.posts %}
+                        <li><span><b>{{ post.date | date_to_string }}</b></span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div> 
+   </body>

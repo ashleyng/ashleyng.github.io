@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "Summer" break
+title: Summer break
 ---
-
-{{ page.title }}
-==============
 
 Sorry I've been absent lately; I've been on my "Summer" break. I finished proctoring and grading finals on Wednesday, and was super busy before that  with helping with the students with their class projects. So now I'm just enjoying what is left of my summer before classes start on Wednesday. I'm kind of excited to start learning again, but yet still dreading it.
 

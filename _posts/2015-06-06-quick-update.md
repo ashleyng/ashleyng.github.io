@@ -3,8 +3,6 @@ layout: post
 title: Quick Update
 ---
 
-{{ page.title }}
-==========
 
 Sorry It's been awhile, just a lot going with intern events and then just being tired after work. But the internship is going great. I love it! The people and the work environment is just amazing. I'm not really sure how much I can talk about what I work on since my squad is fairly new, but maybe in a few weeks time.
 
