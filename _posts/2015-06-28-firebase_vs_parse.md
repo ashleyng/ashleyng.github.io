@@ -27,6 +27,7 @@ In my last post, I said I was working on a simple Firebase app, well I turned th
 
 ###Free Account Plan
 You obviously get a better deal on storage with Parse.
+
 |          | Database Storage | File Storage | Database Transfer | File Transfer |
 |----------|------------------|--------------|-------------------|---------------|
 | Firebase | 100 MB           | 1 GB         | 5 GB              | 100 GB        |
