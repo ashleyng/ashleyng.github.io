@@ -1,0 +1,19 @@
+---
+layout: header
+title: CS 371P Blog
+---
+
+<body>
+	<div class="section">
+		<div class="row">
+			<div class="col-lg-4 col-lg-offset-4">
+				<h1>CS371p Fall 2015: Ashley Ng</h1>
+				<ul id="posts">
+					{% for post in site.categories.cs371p limit: 10 %}
+	      				<li><span><b>{{ post.date | date_to_string }}</b></span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
