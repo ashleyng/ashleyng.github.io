@@ -1,0 +1,16 @@
+---
+layout: header
+---
+
+<div class="section" id="posts">
+	<div class="row">
+		<div class="col-lg-2 col-lg-offset-3">
+			<img src="/images/ashley-ng.jpg">
+		</div>
+		<div class="col-lg-4">
+			<h1 style="display: inline;">{{ page.title }}</h1> 
+			<h4 style="display: inline; text-align:right;">{{ page.date | date_to_string }}</h4>
+			{{ content }}
+		</div>
+	</div>
+</div>
