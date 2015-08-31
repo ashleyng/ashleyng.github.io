@@ -6,11 +6,13 @@ title: Blog
 <body>
 	<div class="section">
 		<div class="row">
-			<div class="col-lg-3 col-lg-offset-3">
+			<div class="col-lg-3 col-lg-offset-2">
 				<h1>Recent Blog Posts</h1>
 				<ul id="posts">
 					{% for post in site.posts limit: 10 %}
-	      				<li><span><b>{{ post.date | date_to_string }}</b></span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% if post.categories[0] != "cs371p" %}
+	      					<li><span><b>{{ post.date | date_to_string }}</b></span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+	      				{% endif %}
 					{% endfor %}
 				</ul>
 			</div>
@@ -22,7 +24,15 @@ title: Blog
 					{% endfor %}
 				</ul>
 			</div>
+			<div class="col-lg-3">
+				<h1>CS 371p Blog Posts</h1>
+				<ul id="posts">
+					{% for post in site.categories.cs371p %}
+						<li><span><b>{{ post.date | date_to_string }}</b><span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
 		</div>
 	</div>
-	<center><a href="/archieve.html">Archieve</a> | <a href="/cs371p-blog.html">CS 371P Blog</a></center>
+	<center><a href="/archieve.html">Archieve</a></center>
 </body>
