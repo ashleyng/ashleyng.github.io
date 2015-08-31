@@ -8,6 +8,10 @@ body {
 	font-family: 'Source Sans Pro', serif !important; 
 }
 
+#profile-image {
+	max-width: 2in; 
+}
+
 center > div {
 	display: inline
 }
